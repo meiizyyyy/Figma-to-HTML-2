@@ -37,7 +37,7 @@ a {
 	min-width: 186px;
 	line-height: 68px;
 	border-radius: 14px;
-	background: var(--primary-color);
+	background: #1ebfc1;
 	box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -554,7 +554,6 @@ a {
 .feedback .body {
 	position: relative;
 	padding: 37px 0;
-
 }
 
 .feedback blockquote {
@@ -657,3 +656,97 @@ a {
 	top: 374px;
 	left: 1060px;
 }
+/* ================================================================================================ADMIT  */
+.admit {
+	margin-top: 130px;
+	background: #def6f5;
+	height: 272px;
+	padding: 76px 135px 88px;
+}
+
+.admit .body {
+	display: flex;
+}
+
+.admit .admit-left {
+	width: 70%;
+}
+
+.admit .admit-right {
+	display: flex;
+	align-items: center;
+}
+
+.admit .admit-left .heading-lv2 {
+	/* padding: 76px 0px 0px 0px; */
+	color: #070707;
+	font-family: Poppins;
+	font-size: 4.2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.admit .admit-left .desc {
+	margin-top: 18px;
+	color: #767e7e;
+	font-family: Poppins;
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.admit .admit-right .btn {
+	width: 186px;
+	height: 68px;
+	display: inline-block;
+}
+/* ================================================================================================FOOTER  */
+.footer .row-top {
+	margin-top: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .row-top .title {
+	color: #2e2e2e;
+	font-family: Poppins;
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.footer .list li:first-child {
+	margin-top: 26px;
+}
+
+.footer .row-top .list li {
+	margin-top: 20px;
+}
+.footer .row-top .list a {
+	color: #535353;
+	font-family: Poppins;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer .list-item5 a {
+	display: flex;
+	/* align-items: center; */
+}
+.footer .list .social-icon {
+	margin-right: 9px;
+}
+
+.footer .copyright {
+	margin-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #b0b5b4;
+	font-size: 1.8rem;
+	line-height: normal;
+  }
